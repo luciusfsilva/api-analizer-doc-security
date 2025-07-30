@@ -1,4 +1,4 @@
-package com.securityia.api_analyze_docs.infrastructure.langchain;
+package com.securityia.api_analyze_docs.infrastructure.ia;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

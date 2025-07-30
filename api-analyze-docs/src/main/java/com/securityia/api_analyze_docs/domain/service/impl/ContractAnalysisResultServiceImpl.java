@@ -12,7 +12,7 @@ import com.securityia.api_analyze_docs.domain.model.ContractAnalysisResult;
 import com.securityia.api_analyze_docs.domain.model.LogContractAnalysisResult;
 import com.securityia.api_analyze_docs.domain.service.ContractAnalysisResultService;
 import com.securityia.api_analyze_docs.domain.service.LogContractAnalysisResultService;
-import com.securityia.api_analyze_docs.infrastructure.langchain.LegalAgent;
+import com.securityia.api_analyze_docs.infrastructure.ia.LegalAgent;
 import com.securityia.api_analyze_docs.infrastructure.pdf.PdfTextExtractor;
 import com.securityia.api_analyze_docs.infrastructure.repository.ContractAnalysisResultRepository;
 

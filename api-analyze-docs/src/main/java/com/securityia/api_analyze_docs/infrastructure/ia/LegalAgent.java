@@ -1,4 +1,4 @@
-package com.securityia.api_analyze_docs.infrastructure.langchain;
+package com.securityia.api_analyze_docs.infrastructure.ia;
 
 import com.securityia.api_analyze_docs.domain.model.ContractAnalysisResult;
 

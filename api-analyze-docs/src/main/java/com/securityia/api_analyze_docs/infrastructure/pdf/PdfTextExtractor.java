@@ -18,7 +18,7 @@ public class PdfTextExtractor {
 		try(InputStream in = file.getInputStream(); PDDocument document = PDDocument.load(in)) {
 			PDFTextStripper pdfStripper = new PDFTextStripper();
 			String text = pdfStripper.getText(document);
-			log.info("Extracted text from PDF: {}", text);
+			log.info("Extracted text from PDF");
 			return text;
 		} catch (IOException e) {
 			log.error("Error extracting text from PDF file: {}", file.getOriginalFilename(), e);
